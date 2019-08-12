@@ -21,7 +21,7 @@ Experimental information and other things to keep in mind:
   - SRR7155059 = control sample 2
   - SRR7155060 = control sample 3
 
-##PART 0 : Obtaining Data and References
+## PART 0 : Obtaining Data and References
 
 **Goals:**
 
@@ -93,7 +93,7 @@ ls -1 | wc -l
 
 NOTE: The fastq files you have copied above contain only the first 1000000 reads. Keep this in mind when you are combing through the results of the differential expression analysis.
 
-##Part 1 : Data preprocessing
+## Part 1 : Data preprocessing
 
 **Goals:**
 
@@ -144,7 +144,7 @@ Running this command only give you the total nunmber of lines in the fastq file 
 $RNA_ASSIGNMENT/trimmed_reads/SRR7155059_1.fastq.gz | wc -l
 ```
 
-##PART 2: Data alignment
+## PART 2: Data alignment
 
 **Goals:**
 
@@ -235,7 +235,7 @@ Right-click in the middle of the page, and click on "Expanded" to view the reads
 
 **A10.)** The lines show a connected read, where one part of the read begins mapping to one exon, while the other part maps to the next exon. This is important in RNA-Sequencing alignment as aligners must be aware to take this partial alignment strategy into account.
 
-##PART 3: Expression Estimation
+## PART 3: Expression Estimation
 
 **Goals:**
 
